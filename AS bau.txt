@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AS Bau - Ihr Partner für Bau & Renovierung</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .services img {
+            width: 100%;
+            max-height: 250px;
+            object-fit: cover;
+        }
+        .services h2 {
+            margin-top: 20px;
+            color: #333;
+        }
+        .service-box {
+            padding: 10px;
+        }
+        footer {
+            margin-top: 20px;
+            background: #222;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        AS Bau - Ihr Partner für Bau & Renovierung
+    </header>
+    
+    <div class="container">
+        <h1>Willkommen bei AS Bau</h1>
+        <p>Familiengeführtes Unternehmen für Bodenverlegung, Trockenbau, Hausrenovierung & mehr.</p>
+        
+        <div class="services">
+            <h2>Unsere Leistungen</h2>
+            <div class="service-box">
+                <img src="https://source.unsplash.com/900x250/?construction" alt="Bodenverlegung">
+                <h3>Bodenverlegung</h3>
+                <p>Professionelle Bodenarbeiten für Ihr Zuhause oder Büro.</p>
+            </div>
+            <div class="service-box">
+                <img src="https://source.unsplash.com/900x250/?renovation" alt="Hausrenovierung">
+                <h3>Hausrenovierung</h3>
+                <p>Komplette Renovierungslösungen für Ihr Zuhause.</p>
+            </div>
+            <div class="service-box">
+                <img src="https://source.unsplash.com/900x250/?bathroom" alt="Bad & Toiletten Renovierung">
+                <h3>Bad & Toiletten Renovierung</h3>
+                <p>Moderne & hochwertige Badezimmer- und Toilettensanierung.</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        &copy; 2025 AS Bau | Kontakt: info@asbau.de | Telefon: +49 123 456789
+    </footer>
+</body>
+</html>
